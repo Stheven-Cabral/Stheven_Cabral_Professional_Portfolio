@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,qBAAqB;ACDrB,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,SAAS;CACpB",
+    "sources": [
+        "../scss/styles.scss",
+        "../scss/components/_intro-image.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
