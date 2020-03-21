@@ -1,7 +1,7 @@
 /*Component Imports*/
 .intro-overlay {
   position: fixed;
-  display: block;
+  display: none;
   top: 0;
   left: 0;
   right: 0;
@@ -18,5 +18,12 @@
   .intro-overlay-welcome {
     font-size: 2rem;
   }
+}
+
+.about-me-bg {
+  background-image: url("../images/sculpture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*# sourceMappingURL=styles.css.map */
