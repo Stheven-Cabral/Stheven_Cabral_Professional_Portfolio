@@ -20,10 +20,35 @@
   }
 }
 
-.about-me-bg {
-  background-image: url("../images/sculpture.jpg");
-  background-position: center;
+.about-me {
+  background-image: url("../images/hero-image.jpg");
+  background-position: -645px center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 125px rgba(15, 15, 15, 0.9) inset;
+          box-shadow: 0 0 125px rgba(15, 15, 15, 0.9) inset;
+}
+
+.about-me-text {
+  margin-top: 275px;
+}
+
+.about-me-name {
+  margin-bottom: 50px;
+}
+
+.about-me-info {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .about-me {
+    background-position: center;
+  }
+  .about-me-info {
+    font-size: 2.2rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
