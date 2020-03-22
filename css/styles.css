@@ -1,7 +1,18 @@
+/*Base Imports*/
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.about-me {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Utilities Imports*/
+/*Intro Overlay Colors*/
 /*Component Imports*/
 .intro-overlay {
   position: fixed;
-  display: none;
+  display: block;
   top: 0;
   left: 0;
   right: 0;
@@ -11,7 +22,39 @@
   transition: all 0.5s;
 }
 
+.overlay-content {
+  background-color: #4e4e4e;
+}
+
+.profile-image-container {
+  width: 150px;
+  height: 150px;
+}
+
+.profile-image-container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.profile-image-container img {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+#overlay-name-full {
+  color: #a45a52;
+}
+
+#intro-overlay-enter {
+  background-color: #a45a52;
+}
+
 @media (min-width: 992px) {
+  .profile-image-container {
+    width: 300px;
+    height: 300px;
+  }
   .intro-overlay-name {
     font-size: 2.25rem;
   }
@@ -21,12 +64,12 @@
 }
 
 .about-me {
+  width: 100%;
+  height: 100vh;
   background-image: url("../images/hero-image.jpg");
-  background-position: -645px center;
+  background-position: -700px center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
   -webkit-box-shadow: 0 0 125px rgba(15, 15, 15, 0.9) inset;
           box-shadow: 0 0 125px rgba(15, 15, 15, 0.9) inset;
 }
@@ -36,11 +79,18 @@
 }
 
 .about-me-name {
+  font-size: 3rem;
   margin-bottom: 50px;
 }
 
 .about-me-info {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+@media (max-height: 736px) {
+  .about-me {
+    background-position: -500px center;
+  }
 }
 
 @media (min-width: 576px) {

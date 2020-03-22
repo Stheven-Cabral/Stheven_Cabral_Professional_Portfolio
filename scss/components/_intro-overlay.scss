@@ -1,6 +1,6 @@
 .intro-overlay {
     position: fixed; 
-    display: none;
+    display: block;
     top: 0;
     left: 0;
     right: 0;
@@ -9,7 +9,34 @@
     transition: all 0.5s;
 }
 
+.overlay-content {
+    background-color: $dark-grey;
+}
+
+.profile-image-container {
+    width: 150px;
+    height: 150px;
+    @include clearfix;
+}
+
+.profile-image-container img {
+    box-sizing: content-box;
+}
+
+#overlay-name-full {
+    color: $brick;
+}
+
+#intro-overlay-enter {
+    background-color: $brick;
+}
+
 @media (min-width: 992px) {
+    .profile-image-container {
+        width: 300px;
+        height: 300px;
+    }
+    
     .intro-overlay-name {
         font-size: 2.25rem;
     }

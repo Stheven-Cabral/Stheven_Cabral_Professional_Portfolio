@@ -1,3 +1,9 @@
+/*Base Imports*/
+@import 'base/_typography';
+
+/*Utilities Imports*/
+@import 'utilities/_variables';
+@import 'utilities/_mixins';
 
 /*Component Imports*/
 @import 'components/intro-overlay';
