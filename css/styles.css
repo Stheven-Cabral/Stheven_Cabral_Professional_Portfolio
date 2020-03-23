@@ -177,6 +177,24 @@ body {
   }
 }
 
+@media (min-width: 1200px) {
+  .about-me-info-md {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .about-me-header {
+    font-size: 3rem;
+  }
+  .about-me-name {
+    font-size: 3.75rem;
+  }
+  .about-me-info-md {
+    font-size: 1.75rem;
+  }
+}
+
 /*Media Queries for mobile landscape orientation*/
 @media (max-width: 1200px) and (max-height: 850px) {
   .about-me-header {
