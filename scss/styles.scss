@@ -1,10 +1,11 @@
 /*Base Imports*/
-@import 'base/_typography';
+@import 'base/typography';
 
 /*Utilities Imports*/
-@import 'utilities/_variables';
-@import 'utilities/_mixins';
+@import 'utilities/variables';
+@import 'utilities/mixins';
 
 /*Component Imports*/
 @import 'components/intro-overlay';
 @import 'components/about-me';
+@import 'components/navigation';
