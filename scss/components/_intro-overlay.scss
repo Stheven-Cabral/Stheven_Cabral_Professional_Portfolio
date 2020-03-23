@@ -1,6 +1,6 @@
 .intro-overlay {
     position: fixed; 
-    display: block;
+    display: none;
     top: 0;
     left: 0;
     right: 0;
@@ -23,7 +23,7 @@
     box-sizing: content-box;
 }
 
-#overlay-name-full {
+#overlay-highlight {
     color: $brick;
 }
 

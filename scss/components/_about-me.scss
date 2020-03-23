@@ -1,6 +1,6 @@
 .about-me {
     width: 100%;
-    height: 100vh;
+    height: 93vh;
     background-image: url('../images/hero-image.jpg');
     background-position: -700px center;
     background-repeat: no-repeat;
@@ -9,16 +9,37 @@
 }
 
 .about-me-text {
-    margin-top: 150px;
+    height: 100%;
+    background-color: rgba(65, 65, 65, 0.45);
+}
+
+.about-me-header {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 .about-me-name {
-    font-size: 3rem;
-    margin-bottom: 50px;
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: $cadet-blue;
 }
 
-.about-me-info {
-    font-size: 1.8rem;
+.text-highlight {
+    color: $cadet-blue;
+}
+
+.about-me-info-sm {
+    font-size: 1.35rem;
+    margin: 0;
+    margin-top: $about-info-m-y;
+    margin-bottom: $about-info-m-y;
+}
+
+.about-me-info-sm-dev {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 @media (max-height: 736px) {
@@ -32,14 +53,30 @@
         background-position: center;
     }
 
-    .about-me-info {
+    .about-me-header {
+        font-size: 2.75rem;
+    }
+
+    .about-me-name {
+        font-size: 3rem;
+    }
+
+    .about-me-info-sm {
         font-size: 2rem;
+    }
+
+    .about-me-info-sm-dev {
+        font-size: 2.25rem;
     }
 }
 
 @media (min-width: 768px) {
     .about-me-text {
-        visibility: hidden;
+        padding-left: 2rem;
+    }
+    .about-me-info-sm,
+    .about-me-info-sm-dev {
+        display: none;
     }
 }
 
