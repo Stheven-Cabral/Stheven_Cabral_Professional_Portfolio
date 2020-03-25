@@ -1,5 +1,6 @@
 .skills-section {
-    background-image: url('../images/bridge.jpg');    
+    background-image: url('../images/bridge.jpg');
+    background-size: cover;    
 }
 
 .skills-section-header {
@@ -21,5 +22,9 @@
 .col-sm h4 {
     font-weight: bold;
     color: $brick;
+}
+
+.skills-content p {
+    margin: 0;
 }
     

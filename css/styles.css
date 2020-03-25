@@ -245,6 +245,7 @@ body {
 
 .skills-section {
   background-image: url("../images/bridge.jpg");
+  background-size: cover;
 }
 
 .skills-section-header {
@@ -266,5 +267,9 @@ body {
 .col-sm h4 {
   font-weight: bold;
   color: #a45a52;
+}
+
+.skills-content p {
+  margin: 0;
 }
 /*# sourceMappingURL=styles.css.map */
