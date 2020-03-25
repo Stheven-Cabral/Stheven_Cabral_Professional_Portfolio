@@ -1,0 +1,25 @@
+.skills-section {
+    background-image: url('../images/bridge.jpg');    
+}
+
+.skills-section-header {
+    display: inline-block;
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    color: $dark-grey;
+    font-weight: bolder;
+    border-bottom: 2px solid $cadet-blue;
+}
+
+.col-sm {
+    background-color: White;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+.col-sm h4 {
+    font-weight: bold;
+    color: $brick;
+}
+    

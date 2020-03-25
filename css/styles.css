@@ -1,11 +1,12 @@
-/*Base Imports*/
-body {
-  font-family: 'Rubik', sans-serif;
-}
-
 /*Utilities Imports*/
 /*Intro Overlay Colors*/
 /*About me info vertical spacing*/
+/*Base Imports*/
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #4e4e4e;
+}
+
 /*Component Imports*/
 .intro-overlay {
   position: fixed;
@@ -240,5 +241,30 @@ body {
 
 .nav-item {
   font-size: 1.1rem;
+}
+
+.skills-section {
+  background-image: url("../images/bridge.jpg");
+}
+
+.skills-section-header {
+  display: inline-block;
+  width: 15%;
+  margin-left: 42.5%;
+  margin-right: 42.5%;
+  color: #4e4e4e;
+  font-weight: bolder;
+  border-bottom: 2px solid #53d9eb;
+}
+
+.col-sm {
+  background-color: White;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.col-sm h4 {
+  font-weight: bold;
+  color: #a45a52;
 }
 /*# sourceMappingURL=styles.css.map */
