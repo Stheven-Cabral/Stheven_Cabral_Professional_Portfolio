@@ -8,7 +8,8 @@
         "../scss/utilities/_mixins.scss",
         "../scss/components/_intro-overlay.scss",
         "../scss/components/_about-me.scss",
-        "../scss/components/_navigation.scss"
+        "../scss/components/_navigation.scss",
+        "../scss/components/_skills.scss"
     ],
     "names": [],
     "file": "styles.css"
