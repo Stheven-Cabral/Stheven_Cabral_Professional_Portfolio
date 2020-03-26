@@ -6,13 +6,12 @@
 }
 
 .skills-section-header {
-    display: inline-block;
-    width: 125px;
-    margin-left: 42.5%;
-    margin-right: 42.5%;
     color: $dark-grey;
     font-weight: bolder;
-    border-bottom: 2px solid $cadet-blue;
+    -webkit-text-decoration-line: underline; /* Safari */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: $cadet-blue;
 }
 
 .skills-intro {
