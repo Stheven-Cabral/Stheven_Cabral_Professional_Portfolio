@@ -283,7 +283,7 @@ body {
   font-size: 1.20rem;
 }
 
-.skills-section-header {
+.projects-section-header {
   color: #4e4e4e;
   font-weight: bolder;
   -webkit-text-decoration-line: underline;
@@ -293,5 +293,21 @@ body {
           text-decoration-style: solid;
   -webkit-text-decoration-color: #53d9eb;
           text-decoration-color: #53d9eb;
+}
+
+.card {
+  width: 25rem;
+  border-color: #4e4e4e;
+}
+
+.card-button {
+  background-color: #a45a52;
+}
+
+.contact-info {
+  background-image: url("../images/bridge.jpg");
+  background-position: center;
+  background-size: contain;
+  height: 500px;
 }
 /*# sourceMappingURL=styles.css.map */

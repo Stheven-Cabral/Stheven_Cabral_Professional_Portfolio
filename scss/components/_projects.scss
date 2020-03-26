@@ -1,8 +1,17 @@
-.skills-section-header {
+.projects-section-header {
     color: $dark-grey;
     font-weight: bolder;
     -webkit-text-decoration-line: underline; /* Safari */
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: $cadet-blue;
+}
+
+.card {
+    width: 25rem;
+    border-color: $dark-grey;
+}
+
+.card-button {
+    background-color: $brick;
 }
