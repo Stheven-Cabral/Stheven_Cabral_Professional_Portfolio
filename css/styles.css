@@ -282,4 +282,16 @@ body {
 .skills-section p {
   font-size: 1.20rem;
 }
+
+.skills-section-header {
+  color: #4e4e4e;
+  font-weight: bolder;
+  -webkit-text-decoration-line: underline;
+  /* Safari */
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+  -webkit-text-decoration-color: #53d9eb;
+          text-decoration-color: #53d9eb;
+}
 /*# sourceMappingURL=styles.css.map */
