@@ -1,12 +1,13 @@
 .skills-section {
-    background-image: url('../images/bridge.jpg');
-    background-position: center top;
-    background-size: cover;    
+    background-image: url('../images/dodge-grey.jpg');
+    background-position: center -400px;
+    background-size: cover;
+    overflow-x: auto;    
 }
 
 .skills-section-header {
     display: inline-block;
-    width: 15%;
+    width: 125px;
     margin-left: 42.5%;
     margin-right: 42.5%;
     color: $dark-grey;
@@ -14,18 +15,24 @@
     border-bottom: 2px solid $cadet-blue;
 }
 
-.col-sm {
+.skills-intro {
+    margin: 0;
+    padding: 0px 15px 15px;
+}
+
+.skills-header-container,
+.col-md {
     background-color: White;
     opacity: 0.9;
     border-radius: 8px;
 }
 
-.col-sm h4 {
+.col-md h4 {
     font-weight: bold;
     color: $brick;
 }
 
-.skills-content p {
-    margin: 0;
+.skills-section p {
+    font-size: 1.25rem;
 }
     
