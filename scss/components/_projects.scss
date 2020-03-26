@@ -8,8 +8,13 @@
 }
 
 .card {
-    width: 25rem;
+    width: 35rem;
     border-color: $dark-grey;
+}
+
+.card-body h5 {
+    color: $brick;
+    font-weight: bold;
 }
 
 .card-button {
