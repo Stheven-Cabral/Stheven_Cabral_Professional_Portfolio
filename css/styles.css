@@ -245,7 +245,7 @@ body {
 
 .skills-section {
   background-image: url("../images/dodge-grey.jpg");
-  background-position: center -400px;
+  background-position: center -250px;
   background-size: cover;
   overflow-x: auto;
 }
@@ -280,6 +280,6 @@ body {
 }
 
 .skills-section p {
-  font-size: 1.25rem;
+  font-size: 1.20rem;
 }
 /*# sourceMappingURL=styles.css.map */
