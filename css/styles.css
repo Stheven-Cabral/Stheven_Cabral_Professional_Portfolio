@@ -311,8 +311,32 @@ body {
 
 .contact-info {
   background-image: url("../images/bridge.jpg");
-  background-position: center;
-  background-size: contain;
-  height: 500px;
+  background-position: center -250px;
+  background-size: cover;
+  height: auto;
+}
+
+.contact-container {
+  background-color: White;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.contacts-section-header {
+  color: #4e4e4e;
+  font-weight: bolder;
+  -webkit-text-decoration-line: underline;
+  /* Safari */
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+  -webkit-text-decoration-color: #53d9eb;
+          text-decoration-color: #53d9eb;
+}
+
+.contacts-section-header::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 /*# sourceMappingURL=styles.css.map */
