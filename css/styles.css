@@ -10,7 +10,7 @@ body {
 /*Component Imports*/
 .intro-overlay {
   position: fixed;
-  display: none;
+  display: block;
   top: 0;
   left: 0;
   right: 0;
@@ -41,7 +41,7 @@ body {
 }
 
 #overlay-highlight {
-  color: #a45a52;
+  color: #53d9eb;
 }
 
 #intro-overlay-enter {
@@ -239,6 +239,12 @@ body {
   }
 }
 
+.navbar {
+  visibility: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 .nav-item {
   font-size: 1.1rem;
 }
@@ -252,14 +258,14 @@ body {
 
 .skills-section-header {
   color: #4e4e4e;
-  font-weight: bolder;
+  font-weight: bold;
   -webkit-text-decoration-line: underline;
   /* Safari */
   text-decoration-line: underline;
   -webkit-text-decoration-style: solid;
           text-decoration-style: solid;
-  -webkit-text-decoration-color: #53d9eb;
-          text-decoration-color: #53d9eb;
+  -webkit-text-decoration-color: #a45a52;
+          text-decoration-color: #a45a52;
 }
 
 .skills-intro {
@@ -283,16 +289,20 @@ body {
   font-size: 1.20rem;
 }
 
+.anchor {
+  margin-top: 50px;
+}
+
 .projects-section-header {
   color: #4e4e4e;
-  font-weight: bolder;
+  font-weight: bold;
   -webkit-text-decoration-line: underline;
   /* Safari */
   text-decoration-line: underline;
   -webkit-text-decoration-style: solid;
           text-decoration-style: solid;
-  -webkit-text-decoration-color: #53d9eb;
-          text-decoration-color: #53d9eb;
+  -webkit-text-decoration-color: #a45a52;
+          text-decoration-color: #a45a52;
 }
 
 .card {
@@ -324,19 +334,31 @@ body {
 
 .contacts-section-header {
   color: #4e4e4e;
-  font-weight: bolder;
+  font-weight: bold;
   -webkit-text-decoration-line: underline;
   /* Safari */
   text-decoration-line: underline;
   -webkit-text-decoration-style: solid;
           text-decoration-style: solid;
-  -webkit-text-decoration-color: #53d9eb;
-          text-decoration-color: #53d9eb;
+  -webkit-text-decoration-color: #a45a52;
+          text-decoration-color: #a45a52;
 }
 
 .contacts-section-header::after {
   display: block;
   content: "";
   clear: both;
+}
+
+.social-svgs {
+  width: 127.9px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.github,
+.linkedin,
+.instagram {
+  fill: #a45a52;
 }
 /*# sourceMappingURL=styles.css.map */

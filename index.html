@@ -6,22 +6,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-
     <title>Stheven Cabral Professional Profile</title>
 </head>
 
 <body>
+    <!-- Overlay introduction section -->
     <div class="intro-overlay" id="intro-overlay">
         <div class="d-flex flex-column justify-content-center vh-100 vw-100 overlay-content">
             <div class="profile-image-container mx-auto">
                 <img class="w-100 h-100 rounded-circle" src="images/portfolio-me.png" alt="Profile Picture" style="border: 5px solid white;">
             </div>
             <h3 class="text-center text-white h3 mt-4 intro-overlay-name">Hello!</h3>
-            <p class="text-center text-white h4 mt-2 intro-overlay-welcome"><span id="overlay-highlight">Welcome</span> to my Professional Portfolio!</p>
+            <p class="text-center text-white h4 mt-2 intro-overlay-welcome"><span id="overlay-highlight">Welcome</span> to my Portfolio!</p>
             <button type="button" class="btn btn-lg w-25 mx-auto mt-5 h3 text-white" id="intro-overlay-enter">ENTER</button>
         </div>
     </div>
 
+    <!-- About section in a hero format -->
     <div class="d-flex flex-column about-me" id="about-me">
       <div class="d-flex flex-column justify-content-center about-me-text">
         <p class="text-white text-center about-me-header">Who am <span class="text-highlight">I</span>?</p>
@@ -37,8 +38,8 @@
       </div>
     </div>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom sticky-top">
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom sticky-top" id="nav-bar">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -53,6 +54,7 @@
       </div>
     </nav>
 
+    <!-- Skills section -->
     <div class="container-fluid skills-section" id="skills-section">
       <div class="skills-header-container mt-4 py-5">
         <h2 class="text-center my-3 skills-section-header">SKILLS</h2>
@@ -91,7 +93,9 @@
       </div>
     </div>
 
-    <div class="projects-section my-5" id="projects-section">
+    <!-- Projects section -->
+    <span class="anchor" id="projects-section"></span>
+    <div class="projects-section my-5 pt-1">
       <div class="projects-header-container my-5">
         <h2 class="text-center mb-3 projects-section-header">PROJECTS</h2>
         <p class="text-center px-4">A collection of a few engaging and interactive web sites and interfaces I have built along my front end web development journey.</p>
@@ -150,14 +154,15 @@
       </div>
     </div>
     
+    <!-- Contact section -->
     <div class="contact-info py-3" id="contact-info">
-      <div class="contact-container mx-3">
-        <h2 class="text-center contacts-section-header">CONTACT</h2>
-        <p class="text-center w-75 m-auto">If you would like to get in touch, hire me for a job, or work on a project, you can reach me at <span class="font-weight-bold">stheven.cabral@gmail.com</span></p>
-        <h3 class="text-center">Social Links</h3>
-        <div class="social-svgs">
-          <a href="https://github.com/Stheven-Cabral" class="github">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 25 25">
+      <div class="contact-container mx-3 pt-5">
+        <h3 class="text-center contacts-section-header">CONTACT</h3>
+        <p class="text-center w-75 my-4 mx-auto">If you would like to get in touch, hire me for a job, or work on a project, you can reach me at <span class="font-weight-bold">stheven.cabral@gmail.com</span></p>
+        <h4 class="text-center mt-5">Social Links</h4>
+        <div class="social-svgs mt-3 mb-5">
+          <a href="https://github.com/Stheven-Cabral" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 25 25" class="github">
               <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm2.218 18.616c-.354.069-.468-.149-.468-.336v-1.921c0-.653-.229-1.079-.481-1.296 
               1.56-.173 3.198-.765 3.198-3.454 0-.765-.273-1.389-.721-1.879.072-.177.312-.889-.069-1.853 0 0-.587-.188-1.923.717-.561-.154-1.159-.231-1.754-.234-.595.003-1.193.08-1.753.235-1.337-.905-1.925-.717-1.925-.717-.379.964-.14 1.676-.067 
               1.852-.448.49-.722 1.114-.722 1.879 0 2.682 1.634 3.282 3.189 3.459-.2.175-.381.483-.444.936-.4.179-1.413.488-2.037-.582 0 0-.37-.672-1.073-.722 0 0-.683-.009-.048.426 0 0 .46.215.777 1.024 0 0 .405 1.25 2.353.826v1.303c0 
@@ -165,15 +170,15 @@
             </svg>
           </a>
 
-          <a href="https://www.linkedin.com/in/sthevencabral" class="linkedin">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 25 25">
+          <a href="https://www.linkedin.com/in/sthevencabral" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 25 25" class="linkedin">
               <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 
               1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/>
             </svg>
           </a>
 
-          <a href="https://www.instagram.com/sc_captured/" class="instagram">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 25 25">
+          <a href="https://www.instagram.com/sc_captured/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 25 25" class="instagram">
               <path d="M17.25 7.288v1.269c0 .297-.241.539-.538.539h-1.269c-.299 0-.538-.242-.538-.539v-1.269c0-.297.239-.538.538-.538h1.269c.297 0 
               .538.241.538.538zm-5.25 7.403c1.486 0 2.693-1.205 2.693-2.692s-1.207-2.69-2.693-2.69c-1.487 0-2.691 1.204-2.691 2.691s1.204 2.691 2.691 
               2.691zm4.261-3.291c.028.196.046.396.046.599 0 2.38-1.928 4.308-4.307 4.308s-4.307-1.928-4.307-4.307c0-.204.018-.403.046-.599.027-.194.066-.383.118-.567h-1.107v5.879c0 
@@ -182,10 +187,11 @@
             </svg>
           </a>
         </div>
-        <p class="text-center m-0">STHEVEN CABRAL ©2020</p>
+        <p class="text-center mb-0 pb-2">STHEVEN CABRAL ©2020</p>
       </div>
     </div>
     
+    <!-- jQuery, Bootstrap, and JavaScript links -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

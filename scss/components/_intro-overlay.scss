@@ -1,6 +1,6 @@
 .intro-overlay {
     position: fixed; 
-    display: none;
+    display: block;
     top: 0;
     left: 0;
     right: 0;
@@ -24,7 +24,7 @@
 }
 
 #overlay-highlight {
-    color: $brick;
+    color: $cadet-blue;
 }
 
 #intro-overlay-enter {
