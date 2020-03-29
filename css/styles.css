@@ -48,6 +48,16 @@ body {
   background-color: #a45a52;
 }
 
+.enter-text {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .enter-text {
+    font-size: 1.5rem;
+  }
+}
+
 @media (min-width: 992px) {
   .profile-image-container {
     width: 300px;
@@ -252,8 +262,7 @@ body {
 .skills-section {
   background-image: url("../images/dodge-grey.jpg");
   background-position: center -250px;
-  background-size: cover;
-  overflow-x: auto;
+  background-size: contain;
 }
 
 .skills-section-header {
@@ -289,6 +298,17 @@ body {
   font-size: 1.20rem;
 }
 
+/*CSS for skills section fade in effect*/
+.skills-text {
+  opacity: 1;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.skills-text-hidden {
+  opacity: 0;
+}
+
 .anchor {
   margin-top: 50px;
 }
@@ -308,6 +328,9 @@ body {
 .card {
   width: 35rem;
   border-color: #4e4e4e;
+  opacity: 1;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .card-body h5 {
@@ -317,6 +340,13 @@ body {
 
 .card-button {
   background-color: #a45a52;
+}
+
+/*CSS for projects section fade in effect*/
+.card-hidden-left {
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+  opacity: 0;
 }
 
 .contact-info {
@@ -330,6 +360,8 @@ body {
   background-color: White;
   opacity: 0.9;
   border-radius: 8px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .contacts-section-header {
@@ -360,5 +392,10 @@ body {
 .linkedin,
 .instagram {
   fill: #a45a52;
+}
+
+/*CSS for contact section fade in effect*/
+.contact-container-hidden {
+  opacity: 0;
 }
 /*# sourceMappingURL=styles.css.map */

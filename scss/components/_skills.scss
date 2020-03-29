@@ -1,8 +1,7 @@
 .skills-section {
     background-image: url('../images/dodge-grey.jpg');
     background-position: center -250px;
-    background-size: cover;
-    overflow-x: auto;    
+    background-size: contain; 
 }
 
 .skills-section-header {
@@ -35,3 +34,12 @@
     font-size: 1.20rem;
 }
     
+/*CSS for skills section fade in effect*/
+.skills-text {
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+.skills-text-hidden {
+    opacity: 0;
+}

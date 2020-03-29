@@ -9,6 +9,7 @@
     background-color: White;
     opacity: 0.9;
     border-radius: 8px;
+    transition: all 0.3s linear;
 }
 
 .contacts-section-header {
@@ -31,4 +32,9 @@
 .linkedin,
 .instagram {
     fill: $brick;
+}
+
+/*CSS for contact section fade in effect*/
+.contact-container-hidden {
+    opacity: 0;
 }
