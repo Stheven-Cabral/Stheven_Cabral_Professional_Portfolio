@@ -23,3 +23,16 @@ function overlayOn() {
 }
 
 homeNavButton.addEventListener('click', overlayOn);
+
+/*jQuery Code for smooth scrolling when navigation links are clicked*/
+$('document').ready(function() {
+  $('.nav-item-page').click(function(e) {
+    let innerHref = $(this).attr('href');
+    
+    $('html, body').animate({
+      scrollTop: $(innerHref).offset().top
+    }, 1000);
+
+    e.preventDefault();
+  });
+});
