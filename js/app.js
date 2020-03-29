@@ -42,16 +42,19 @@ $('document').ready(function() {
   const skillsSectionOffset = skillsSection.offset().top;
   const contactSection = $('.contact-container');
   const contactSectionOffset = contactSection.offset().top;
-  console.log(skillsSectionOffset);
-  console.log(contactSectionOffset);
+  const projectSection = $('.projects-section');
+  const projectSectionOffset = projectSection.offset().top;
 
   $(document).on('scroll', function() {
     let portfolioDocument = $(document);
-    console.log(portfolioDocument.scrollTop());
 
     if(portfolioDocument.scrollTop() > skillsSectionOffset - 500) {
       skillsSection.removeClass('skills-text-hidden');
     }
+
+    if(portfolioDocument.scrollTop() > projectSectionOffset - 500) {
+      $('.card').removeClass('card-hidden-left');
+    } 
 
     if(portfolioDocument.scrollTop() > contactSectionOffset - 985) {
       contactSection.removeClass('contact-container-hidden');
