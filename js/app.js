@@ -37,7 +37,7 @@ $('document').ready(function() {
     e.preventDefault();
   });
 
-  /*Code for fade in effect for skills, project and contact section*/
+  /*Fade in effect code for skills, project and contact section*/
   const skillsSection = $('.skills-text');
   const skillsSectionOffset = skillsSection.offset().top;
   const contactSection = $('.contact-container');
