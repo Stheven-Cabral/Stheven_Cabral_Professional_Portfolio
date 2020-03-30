@@ -118,12 +118,6 @@ body {
   }
 }
 
-@media (max-height: 736px) {
-  .about-me {
-    background-position: -500px center;
-  }
-}
-
 @media (min-width: 576px) {
   .about-me {
     background-position: center;
@@ -139,6 +133,12 @@ body {
   }
   .about-me-info-sm-dev {
     font-size: 2.25rem;
+  }
+}
+
+@media (max-height: 736px) {
+  .about-me {
+    background-position: -500px center;
   }
 }
 
