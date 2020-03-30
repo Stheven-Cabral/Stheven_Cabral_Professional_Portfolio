@@ -1,4 +1,6 @@
-/*Code to close overlay when 'ENTER' is clicked*/
+/*jshint esversion: 6 */
+
+/*Code to to fade out introduction overlay when 'ENTER' is clicked and have fixed navigation bar appear.*/
 const introEnterButton = document.getElementById('intro-overlay-enter');
 const introOverlay = document.getElementById('intro-overlay');
 const navBar = document.getElementById('nav-bar');
@@ -12,7 +14,7 @@ function overlayOff() {
 
 introEnterButton.addEventListener('click', overlayOff);
 
-/*Code to turn on overlay when 'Home' is clicked on the navigation bar*/
+/*Code to turn on overlay when 'Home' is clicked on the navigation bar and have the fixed navigation bar disappear.*/
 const homeNavButton = document.getElementById('home-button');
 
 function overlayOn() {
@@ -24,8 +26,9 @@ function overlayOn() {
 
 homeNavButton.addEventListener('click', overlayOn);
 
-/*jQuery Code for portfolio effects*/ 
-$('document').ready(function() {
+
+/*jQuery Code for effects on scroll event.*/ 
+$(document).ready(function() {
   /*Code for smooth scrolling when navigation links are clicked*/
   $('.nav-item-page').click(function(e) {
     let innerHref = $(this).attr('href');

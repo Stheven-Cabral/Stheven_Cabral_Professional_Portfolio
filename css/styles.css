@@ -301,8 +301,8 @@ body {
 /*Code for skills section fade in effect*/
 .skills-text {
   opacity: 1;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
 .skills-text-hidden {
@@ -329,8 +329,8 @@ body {
   width: 35rem;
   border-color: #4e4e4e;
   opacity: 1;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .card-body h5 {
@@ -360,8 +360,8 @@ body {
   background-color: White;
   opacity: 0.9;
   border-radius: 8px;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 
 .contacts-section-header {
