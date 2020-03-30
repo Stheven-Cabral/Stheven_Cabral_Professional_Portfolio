@@ -16,8 +16,8 @@ body {
   right: 0;
   bottom: 0;
   z-index: 2;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .overlay-content {
@@ -251,8 +251,8 @@ body {
 
 .navbar {
   visibility: hidden;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
 .nav-item {
@@ -298,7 +298,7 @@ body {
   font-size: 1.20rem;
 }
 
-/*CSS for skills section fade in effect*/
+/*Code for skills section fade in effect*/
 .skills-text {
   opacity: 1;
   -webkit-transition: all 0.2s linear;
@@ -342,7 +342,7 @@ body {
   background-color: #a45a52;
 }
 
-/*CSS for projects section fade in effect*/
+/*Code for projects section fade in effect*/
 .card-hidden-left {
   -webkit-transform: translateX(-200px);
           transform: translateX(-200px);
@@ -394,7 +394,7 @@ body {
   fill: #a45a52;
 }
 
-/*CSS for contact section fade in effect*/
+/*Code for contact section fade in effect*/
 .contact-container-hidden {
   opacity: 0;
 }
