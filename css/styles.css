@@ -185,14 +185,7 @@ body {
     margin-top: 0rem;
   }
   .about-me-info-md {
-    font-size: 1.45rem;
     margin-top: 0.75rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .about-me-info-md {
-    font-size: 1.45rem;
   }
 }
 
@@ -204,7 +197,7 @@ body {
     font-size: 3.75rem;
   }
   .about-me-info-md {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 
